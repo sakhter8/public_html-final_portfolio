@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Initially hide overflow to prevent scrolling */
+}
+
+/* Entrance Page Styles */
+#entrance {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background: linear-gradient(to right, #d63384, #6f42c1); /* Gradient background from pink to purple */
+  text-align: center;
+  position: fixed;
+  width: 100%; /* Full width */
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.flower-image {
+  max-width: 20%; /* Adjusted flower image size */
+  height: auto;
+  margin-bottom: 30px; /* Margin around the image */
+}
+
+.entrance-content {
+  padding: 20px; /* Padding around the content */
+}
+
+.entrance-content h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2rem; /* Font size for heading */
+  color: white;
+  margin: 20px 0; /* Margin around the heading */
+}
+
+#enter-button {
+  font-size: 1.2rem; /* Button font size */
+  padding: 10px 20px; /* Button padding */
+  background-color: #d63384; /* Pink button color */
+  border-color: #d63384; /* Pink border color */
+  color: white; /* White text color */
+}
+
+#enter-button:hover {
+  background-color: #c8235c; /* Darker pink on hover */
+  border-color: #bd2130; /* Darker pink border color */
+}
+
+/* Main Portfolio Page Styles */
+#portfolio {
+  display: none; /* Initially hidden */
+}
+
+header {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.name {
+  font-family: 'Pacifico', cursive;
+  font-size: 3rem;
+  color: #d63384; /* Pink text color */
+}
+
+.subheading {
+  color: #6f42c1; /* Purple text color */
+}
+
+h3 {
+  color: #d63384; /* Pink text color */
+  border-bottom: 2px solid #d63384; /* Pink border color */
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+a.btn-primary {
+  background-color: #d63384; /* Pink button color */
+  border-color: #d63384; /* Pink border color */
+  color: white; /* White text color */
+}
+
+a.btn-primary:hover {
+  background-color: #c8235c; /* Darker pink on hover */
+  border-color: #bd2130; /* Darker pink border color */
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: #6f42c1; /* Purple text color */
+  border-color: #6f42c1; /* Purple border color */
+}
+
+.social-links a:hover {
+  background-color: #6f42c1; /* Purple background color */
+  color: white; /* White text color */
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+footer a.btn-outline-primary {
+  border-color: #6f42c1; /* Purple border color */
+  color: #6f42c1; /* Purple text color */
+}
+
+footer a.btn-outline-primary:hover {
+  background-color: #6f42c1; /* Purple background color */
+  color: white; /* White text color */
+}
